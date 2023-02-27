@@ -25,7 +25,8 @@ class ColorsTableViewController: UIViewController {
         let randomColor = UIColor(red: CGFloat.random(in: 0...1),
                                   green: CGFloat.random(in: 0...1),
                                   blue: CGFloat.random(in: 0...1),
-                                  alpha: <#T##CGFloat#>)
+                                  alpha: 1)
+        return UIColor()
     }
 }
 
