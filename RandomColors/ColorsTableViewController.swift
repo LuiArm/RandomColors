@@ -15,6 +15,18 @@ class ColorsTableViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    func createRandomColors() {
+        for _ in 0..<50{
+            
+        }
+    }
+    
+    func createRandomColor() -> UIColor {
+        let randomColor = UIColor(red: CGFloat.random(in: 0...1),
+                                  green: CGFloat.random(in: 0...1),
+                                  blue: CGFloat.random(in: 0...1),
+                                  alpha: <#T##CGFloat#>)
+    }
 }
 
 extension ColorsTableViewController: UITableViewDelegate, UITableViewDataSource {
