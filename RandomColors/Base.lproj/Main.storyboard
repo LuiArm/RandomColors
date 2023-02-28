@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Qgh-SI-Cwl">
-                                <rect key="frame" x="0.0" y="92" width="414" height="770"/>
+                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="aHF-x8-AR9">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ColorCell" id="aHF-x8-AR9">
                                         <rect key="frame" x="0.0" y="50" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aHF-x8-AR9" id="fHt-hC-vVC">
@@ -38,9 +38,9 @@
                         <viewLayoutGuide key="safeArea" id="Zt5-0g-njc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Qgh-SI-Cwl" secondAttribute="bottom" id="FEq-RG-ues"/>
                             <constraint firstItem="Qgh-SI-Cwl" firstAttribute="top" secondItem="Zt5-0g-njc" secondAttribute="top" id="JyK-4H-GMB"/>
                             <constraint firstItem="Zt5-0g-njc" firstAttribute="trailing" secondItem="Qgh-SI-Cwl" secondAttribute="trailing" id="QDY-AP-Sa4"/>
-                            <constraint firstItem="Zt5-0g-njc" firstAttribute="bottom" secondItem="Qgh-SI-Cwl" secondAttribute="bottom" id="TvS-DW-Ocs"/>
                             <constraint firstItem="Qgh-SI-Cwl" firstAttribute="leading" secondItem="Zt5-0g-njc" secondAttribute="leading" id="zdq-fO-EB9"/>
                         </constraints>
                     </view>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F60520A129ADC3D7005179F5 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60520A029ADC3D7005179F5 /* UIColor+Ext.swift */; };
 		F6ADA30029A72AE100A4A6E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ADA2FF29A72AE100A4A6E5 /* AppDelegate.swift */; };
 		F6ADA30229A72AE100A4A6E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6ADA30129A72AE100A4A6E5 /* SceneDelegate.swift */; };
 		F6ADA30729A72AE100A4A6E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6ADA30529A72AE100A4A6E5 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F60520A029ADC3D7005179F5 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		F6ADA2FC29A72AE100A4A6E5 /* RandomColors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomColors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6ADA2FF29A72AE100A4A6E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6ADA30129A72AE100A4A6E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				F6ADA30129A72AE100A4A6E5 /* SceneDelegate.swift */,
 				F6ADA31729AA8DBD00A4A6E5 /* ColorsDetailViewController.swift */,
 				F6ADA31529AA8A3C00A4A6E5 /* ColorsTableViewController.swift */,
+				F60520A029ADC3D7005179F5 /* UIColor+Ext.swift */,
 				F6ADA30529A72AE100A4A6E5 /* Main.storyboard */,
 				F6ADA30829A72AE200A4A6E5 /* Assets.xcassets */,
 				F6ADA30A29A72AE200A4A6E5 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				F6ADA30029A72AE100A4A6E5 /* AppDelegate.swift in Sources */,
 				F6ADA30229A72AE100A4A6E5 /* SceneDelegate.swift in Sources */,
+				F60520A129ADC3D7005179F5 /* UIColor+Ext.swift in Sources */,
 				F6ADA31829AA8DBD00A4A6E5 /* ColorsDetailViewController.swift in Sources */,
 				F6ADA31629AA8A3C00A4A6E5 /* ColorsTableViewController.swift in Sources */,
 			);
